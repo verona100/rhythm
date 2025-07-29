@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="EN">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="assets/main.css">
+  <title>Layout</title>
+</head>
+
+
+
+<body class="layout has-sidebar">
+  <c-sidebar class="layout__sidebar is-right">
+    <span class="sidebar__close"></span>
+    <h1 class="sidebar__title"></h1>
+    <nav></nav>
+  </c-sidebar>
+  
+  
+  <c-mainview class="layout__mainview">
+    <nav class="topbar" role="primary">
+      <div class="topbar__wrap">
+        <a class="site" href="">
+          <img class="site__logo" src="assets/logo.svg" alt="">
+          <h-1 class="site__name">SITE NAME</h-1>
+        </a>
+      </div>
+      <div class="topbar__wrap is-right">
+        <c-links class="navlinks" aria-label="site menu">
+          <a class="navlinks__link" href="index.html">Home</a>
+          <a class="navlinks__link" href="slider-image.html">Image Slider</a>     
+          <a class="navlinks__link" href="lightbox.html">Lightbox</a>
+        </c-links>
+        <button class="audiobtn" aria-label="for audio"></button>
+        <button class="navbtn" aria-label="for sidebar"></button>
+      </div>
+    </nav>
+    
+    <header class="banner is-hero is-fullhyt">
+      <div class="banner__wrap">
+        <h1 class="banner__title">Banner Title</h1>
+        <h2 class="banner__subtitle">Banner Subtitle</h2>
+      </div>
+    </header>
+    
+    <main>
+      <article class="container">
+        <h2>Article Title</h2>
+      </article>
+    </main>
+    
+    <footer class="footer" role="contentinfo">
+      <p>Copyright © 2022, 2025 Verona Mae</p>
+    </footer>
+  </c-mainview>
+  
+  <audio class="audio" controls="">
+    <source type="mp3/audio" src="assets/audio.mp3">
+  </audio>
+  
+  <script src="assets/main.js"></script>
+</body>
+</html>
