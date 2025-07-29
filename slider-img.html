@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="EN">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" type="text/css" href="assets/main.css">
+  <link rel="stylesheet" type="text/css" href="assets/slider.css">
+  <title>Image Slider (Checkbox Hack)</title>
+</head>
+
+
+
+<body class="layout">
+  <c-slider class="slider" aria-label="image slider">
+    <input class="slider__hook" type="radio" name="slide hook" id="slh-1">
+    <input class="slider__hook" type="radio" name="slide hook" id="slh-2">
+    <input class="slider__hook" type="radio" name="slide hook" id="slh-3">
+    
+    <c-slides class="slider_slides">
+      <img class="slider__slide" src="assets/slide-1.jpg" alt="">
+      <img class="slider__slide" src="assets/slide-2.jpg" alt="">
+      <img class="slider__slide" src="assets/slide-3.jpg" alt="">
+    </c-slides>
+    
+    <nav class="slider__btns">
+      <label class="slider__btn" for="slh-1"></label>
+      <label class="slider__btn" for="slh-2"></label>
+      <label class="slider__btn" for="slh-3"></label>
+    </nav>
+  </c-slider>
+</body>
+</html>
