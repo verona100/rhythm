@@ -7,5 +7,7 @@ Features:
 * Implements variables.
 * Uses JavaScript to some functions.
 * Partially caters to Assistive Technology.
+* Implements vertical rhythm.
+* Uses fluid measurements for lengths except for vertical rhythm.
 
 
