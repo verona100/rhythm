@@ -5,5 +5,7 @@ Features:
 * Uses few and controlled helper classes.
 * Uses 'is-' and 'has-' prefixes for helper classes.
 * Implements variables.
+* Uses JavaScript to some functions.
+* Partially caters to Assistive Technology.
 
 
